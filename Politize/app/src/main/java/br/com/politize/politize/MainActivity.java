@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         myWebView = (WebView) findViewById(R.id.webView);
 
         myWebView.getSettings().setJavaScriptEnabled(true);
-        myWebView.setWebViewClient(new WebViewClient());    //the lines of code added
-        myWebView.setWebChromeClient(new WebChromeClient()); //same as above
+        myWebView.setWebViewClient(new WebViewClient());
+        myWebView.setWebChromeClient(new WebChromeClient());
 
         myWebView.loadUrl("http://www.politize.com.br");
     }
